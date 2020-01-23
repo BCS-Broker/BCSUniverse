@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.swift_versions = "5.1"
   s.ios.deployment_target = '10.0'  
-  s.vendored_frameworks = 'BrokerUIKit.xcframework'  
+  s.vendored_frameworks = 'BCSUniverse.xcframework'  
 end
