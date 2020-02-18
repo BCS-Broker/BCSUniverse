@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => "LICENSE" }
   s.platform     = :ios
   s.swift_versions = "5.1"
-  s.ios.deployment_target = '11.0'  
-  s.vendored_frameworks = 'BrokerOpenAccountModule.framework' 
+  s.ios.deployment_target = '10.0'  
+  s.vendored_frameworks = 'BCSUniverse.framework' 
   s.public_header_files = '*.framework/**/*.h'
   s.source_files = '*.framework/**/*.h' 
 end
